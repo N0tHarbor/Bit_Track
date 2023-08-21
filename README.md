@@ -1,6 +1,6 @@
 # Bit_Track
 Project to track Crypto Transaction Hops using API's &amp; Python3
-- Created for a MSU Denver Term Paper to watch of how money was launder in the WannaCry ransomware attack.
+- Created for a MSU Denver Term Paper to watch how money was launder in the WannaCry ransomware attack.
 
 [+] APITest.py - Full bitcoin transaction tracker that uses the "hxxps[://]blockchain[.]info/rawaddr/" API. Currently has a bad check for next hop which results in ocassional loops on transactions since the rand function is used and I didnt sort the data properly. Will update one day but probably not any time soon!
 
